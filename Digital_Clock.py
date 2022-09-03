@@ -12,10 +12,9 @@ clock.resizable(1, 1)
 
 text_font= ("Times", "78", "bold italic")
 background = "#f2e750"
-foreground= "#363529"
 border = 25
 
-label = Label(clock, font = text_font, bg = background, fg = foreground, bd = border)
+label = Label(clock, font = text_font, bg = background, bd = border)
 
 label.grid(row = 0, column = 1)
 
